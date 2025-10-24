@@ -132,7 +132,14 @@ At the market level, ADX (UAE) shows slightly higher volatility (≈0.021) than 
 
 ![Figure 10: Up vs Down Days per Market](graphs/NumberrofUpandDownDays.png)
 
-The U.S. market had more Up Days (53%) than Down Days (47%), while the UAE had more Down Days (57.5%) than Up Days (42.5%). This shows that the U.S. market was generally more positive during this period, while the UAE market was more mixed and often reacted to changes in oil prices. Overall, the chart suggests that U.S. investors showed more confidence, while the UAE market was more cautious and sensitive to global events.
+| Market | Day Type | Percentage |
+|---------|-----------|------------|
+| ADX     | Down      | 57.5%      |
+| ADX     | Up        | 42.5%      |
+| US      | Up        | 53.0%      |
+| US      | Down      | 47.0%      |
+
+According to Pandas calculations the U.S. market had more Up Days (53%) than Down Days (47%), while the UAE had more Down Days (57.5%) than Up Days (42.5%). This shows that the U.S. market was generally more positive during this period, while the UAE market was more mixed and often reacted to changes in oil prices. Overall, the chart suggests that U.S. investors showed more confidence, while the UAE market was more cautious and sensitive to global events.
 
 ---
 
