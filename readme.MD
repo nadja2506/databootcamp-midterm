@@ -17,8 +17,8 @@ This analysis uses daily trading data from four companies representing two secto
 
 | Market | Sector | Company | Data Source |
 |---------|---------|----------|--------------|
-| **ADX (UAE)** | Banking | First Abu Dhabi Bank (FAB) | ADX / Yahoo Finance |
-| **ADX (UAE)** | Energy | Abu Dhabi National Energy Co. (TAQA) | ADX / Yahoo Finance |
+| **ADX (UAE)** | Banking | First Abu Dhabi Bank (FAB) | ADX / ADX Exchange |
+| **ADX (UAE)** | Energy | Abu Dhabi National Energy Co. (TAQA) | ADX / ADX Exchange |
 | **NYSE (U.S.)** | Banking | JPMorgan Chase (JPM) | Yahoo Finance |
 | **NYSE (U.S.)** | Energy | ExxonMobil (XOM) | Yahoo Finance |
 
@@ -72,7 +72,7 @@ The boxplots visualize how each company’s daily returns vary. TAQA and XOM exh
 
 #### Banking Sector Correlation
 
-![Figure 5a: Banking Sector Correlation (FAB vs JPM)](graphs/BankingSectorCorr.png)
+![Figure 5a: Banking Sector Correlation (FAB vs JPM)](graphs/BankingSectonCorr.png)
 
 A scatter plot of FAB versus JPM daily returns reveals almost no linear relationship between the UAE and U.S. banking sectors. The cloud of points is diffuse, with only a slight positive slope. This means that movements in U.S. banking stocks do not significantly predict or mirror those in UAE banking, confirming that regional monetary and regulatory environments dominate domestic performance. It also suggests limited global integration between financial institutions across these markets.
 
@@ -130,7 +130,7 @@ At the market level, ADX (UAE) displays slightly higher average volatility (≈0
 
 ### 10. Number of Up vs Down Days
 
-![Figure 10: Up vs Down Days per Market](graphs/NumberofUpandDownDays.png)
+![Figure 10: Up vs Down Days per Market](graphs/NumberrofUpandDownDays.png)
 
 When counting Up and Down trading days, the U.S. market had more Up Days (53%) than Down Days (47%), while the UAE showed more Down Days (57.5%) than Up Days (42.5%). This pattern reveals post-pandemic optimism in the U.S. compared to the UAE’s cautious stance amid oil price adjustments. The figure reflects differences in sentiment: U.S. investors sustained growth-driven optimism, while UAE investors remained defensive and event-sensitive during global market turbulence.
 
