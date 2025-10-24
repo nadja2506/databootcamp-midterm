@@ -131,6 +131,7 @@ At the market level, ADX (UAE) shows slightly higher volatility (≈0.021) than 
 ### 10. Number of Up vs Down Days
 
 ![Figure 10: Up vs Down Days per Market](graphs/NumberrofUpandDownDays.png)
+
 The bar chart above shows the number of Up vs Down trading days for each market. The U.S. had more Up Days in total, while the UAE had more Down Days. 
 | Market | Day Type | Percentage |
 |---------|-----------|------------|
