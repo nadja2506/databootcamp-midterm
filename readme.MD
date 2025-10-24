@@ -162,9 +162,15 @@ This chart shows the risk level of each sector by measuring return volatility. E
 
 ## Conclusion
 
-This comparison of the UAE and U.S. stock markets in 2022–2023 highlights two different market profiles. The U.S. market is more fast-moving and reacts quickly to global events, while the UAE market is steadier and shaped more by local policies. Energy stocks (TAQA and XOM) delivered the strongest returns but also showed the biggest price swings due to changes in oil prices. Meanwhile, banking stocks (FAB and JPM) were much more stable and helped limit risk during uncertain periods.  
-The U.S. saw more days of rising trades, driven by recovery after the pandemic and strong consumer confidence. In contrast, the UAE had more days of decline, showing caution and the impact of changes in global oil markets. Sector trends mattered more than geography: energy kept causing volatility and profit opportunities, while banking provided stability. The correlation findings showed that the UAE and U.S. markets move separately, confirming their value for diversification.  
-For investors, combining UAE and U.S. equities offers an effective risk, balancing U.S. growth potential with UAE steadiness. Ultimately, both markets showcase distinct strengths: the U.S. thrives through innovation and risk-taking; the UAE endures through stability and strategic governance. Their coexistence underlines how market diversity sustains the global balance.
+This comparison of the UAE and U.S. stock markets in 2022–2023 highlights two different market profiles. The U.S. market is more fast-moving and reacts quickly to global events, while the UAE market is steadier and shaped more by local policies. Energy stocks (TAQA and XOM) delivered the strongest returns but also showed the biggest price swings due to changes in oil prices. Meanwhile, banking stocks (FAB and JPM) were much more stable and helped limit risk during uncertain periods.
+
+The U.S. saw more days of rising trades, driven by recovery after the pandemic and strong consumer confidence. In contrast, the UAE had more days of decline, showing caution and the impact of changes in global oil markets. Sector trends mattered more than geography: energy kept causing volatility and profit opportunities, while banking provided stability. The correlation findings showed that the UAE and U.S. markets move separately, confirming their value for diversification.
+
+At the market level, ADX (UAE) shows slightly higher volatility (≈0.021) than the U.S.(≈0.018)(Graph 9). This means that, overall, the UAE market experienced bigger day-to-day swings. Since the UAE market is strongly tied to energy, it reacts more to fluctuations in oil prices, while the U.S. market is more balanced across different industries. This indicates that market composition and sector dominance, particularly the weight of energy stock-strongly influence overall volatility.
+
+Interestingly, although the UAE market is usually more stable than the U.S., the strong performance and high volatility of TAQA (energy) dragged up overall market variability and even affected FAB (banking) through spillover effects within the ADX. In other words, TAQA’s oil-linked volatility exerted upward pressure on the perceived risk of the broader UAE market, making the ADX appear less stable than usual.
+
+For investors, combining UAE and U.S. equities offers an effective balance: U.S. growth potential is complemented by UAE steadiness and income reliability. Ultimately, both markets showcase distinct strengths, the U.S. thrives through innovation and risk-taking, while the UAE endures through stability and strategic governance. Their coexistence underlines how market diversity sustains the global financial balance.
 
 ---
 
