@@ -40,7 +40,7 @@ All figures are stored in the `/graphs/` folder and can be reproduced using the 
 
 ![Figure 1: Stock Price Trends](graphs/PriceTrend.png)
 
-The line plot of daily closing prices highlights distinct market behaviors. U.S. stocks—JPMorgan Chase (JPM) and ExxonMobil (XOM)—show pronounced fluctuations, reflecting global news sensitivity and investor sentiment shifts. Their sharp peaks and dips correspond to periods of financial stress and oil market adjustments. In contrast, UAE stocks—First Abu Dhabi Bank (FAB) and TAQA—exhibit flatter, steadier trajectories, indicating a more policy-anchored and less reactive market. Overall, the figure portrays the U.S. market as dynamic and fast-moving, while the UAE demonstrates steady and conservative momentum.
+The line plot of daily closing prices highlights distinct market behaviors. U.S. stocks,JPMorgan Chase (JPM) and ExxonMobil (XOM),show clear fluctuations, showing global news sensitivity and investor thinking shifts. Their sharp peaks and dips correspond to periods of financial stress and oil market adjustments. In contrast, UAE stocks, First Abu Dhabi Bank (FAB) and TAQA, showcase steadier patterns, indicating a less reactive market. Overall, the figure portrays the U.S. market as dynamic and fast-paced, while the UAE demonstrates steady and conservative momentum.
 
 ---
 
@@ -48,7 +48,7 @@ The line plot of daily closing prices highlights distinct market behaviors. U.S.
 
 ![Figure 2: 30-Day Rolling Volatility](graphs/30-dayRollingVolatility.png)
 
-Rolling volatility measured over a 30-day window captures the evolving risk landscape. Energy stocks (TAQA and XOM) experience sharp volatility spikes in early 2022, coinciding with the Russia–Ukraine war and energy supply shocks. Although volatility later subsides, both remain more turbulent than banking stocks. JPM’s mid-2023 volatility bump aligns with the U.S. regional bank instability, while FAB remains calm and consistent. This visualization reveals contrasting reactions: U.S. equities fluctuate dramatically with global uncertainty, whereas UAE equities maintain resilience through stable domestic policy and limited global exposure.
+Rolling volatility measured over a 30-day window captures the changing risk patterns. Energy stocks (TAQA and XOM) experience sharp volatility spikes in early 2022, coinciding with the Russia–Ukraine war and energy supply shocks. Although volatility later subsides, both remain more unstable than banking stocks. JPM’s mid-2023 volatility bump aligns with the U.S. regional bank instability, while FAB remains calm and stable. This visualization reveals contrasting reactions: U.S. equities fluctuate dramatically with global uncertainty, whereas UAE equities maintain resilience through stable domestic policy.
 
 ---
 
@@ -56,7 +56,7 @@ Rolling volatility measured over a 30-day window captures the evolving risk land
 
 ![Figure 3: Distribution of Daily Returns](graphs/ReturnDistribution.png)
 
-Histograms of daily returns show that most returns cluster near zero, forming nearly normal distributions. Energy stocks (TAQA, XOM) have broader spreads, meaning greater variability and risk. Banking stocks (FAB, JPM) display narrower shapes, implying steadier performance. The wider tails of TAQA and XOM reflect the heightened uncertainty and price volatility during the global energy crisis, while FAB and JPM maintain compact, risk-controlled profiles. In sum, the distribution analysis confirms that energy trades with higher variance, while banking provides predictability and lower risk exposure.
+Histograms of daily returns show that most returns cluster near zero, forming nearly normal distributions. Energy stocks (TAQA, XOM) have broader spreads, meaning greater variability and risk. Banking stocks (FAB, JPM) display narrower shapes, implying steadier performance. The wider tails of TAQA and XOM reflect the higher uncertainty and price volatility during the global energy crisis, while FAB and JPM maintain compact, risk-controlled profiles. In sum, the distribution analysis confirms that energy trades with higher variance, while banking provides predictability and lower risk exposure.
 
 ---
 
@@ -64,7 +64,7 @@ Histograms of daily returns show that most returns cluster near zero, forming ne
 
 ![Figure 4: Daily Return Distribution per Company](graphs/DailyReturnDistributionperCOMP.png)
 
-The boxplots visualize how each company’s daily returns vary. TAQA and XOM exhibit wider interquartile ranges and more outliers, capturing the volatility inherent to the energy sector. FAB and JPM have tighter boxes and shorter whiskers, reflecting controlled, smaller daily price movements. U.S. companies show slightly broader variation overall, aligning with their higher responsiveness to international shocks. The figure underscores the core insight: while both energy firms are volatile, geographic location amplifies the pattern—TAQA’s larger dispersion points to stronger oil dependence within the UAE economy.
+The boxplots visualize how each company’s daily returns vary. TAQA and XOM exhibit wider interquartile ranges and more outliers, capturing the volatility in the energy sector. FAB and JPM have smaller (in length) boxes and shorter whiskers, reflecting controlled, smaller daily price movements. U.S. companies show slightly broader variation overall, aligning with their higher responsiveness to international crises. The figure underscores the core insight: while both energy firms are volatile, geographic location increases the pattern, TAQA’s larger dispersion to stronger oil dependence within the UAE economy.
 
 ---
 
@@ -74,25 +74,25 @@ The boxplots visualize how each company’s daily returns vary. TAQA and XOM exh
 
 ![Figure 5a: Banking Sector Correlation (FAB vs JPM)](graphs/BankingSectonCorr.png)
 
-A scatter plot of FAB versus JPM daily returns reveals almost no linear relationship between the UAE and U.S. banking sectors. The cloud of points is diffuse, with only a slight positive slope. This means that movements in U.S. banking stocks do not significantly predict or mirror those in UAE banking, confirming that regional monetary and regulatory environments dominate domestic performance. It also suggests limited global integration between financial institutions across these markets.
+A scatter plot of FAB versus JPM daily returns reveals almost no linear relationship between the UAE and U.S. banking sectors. The cloud of points is spread, with only a slight positive slope. This means that movements in U.S. banking stocks do not significantly predict or mirror those in UAE banking, confirming that regional monetary and regulatory environments dominate domestic performance. It also suggests limited global integration between financial institutions across these markets.
 
 #### Energy Sector Correlation
 
 ![Figure 5b: Energy Sector Correlation (TAQA vs XOM)](graphs/EnergySectorCorr.png)
 
-For the energy sector, TAQA and XOM show a weak negative correlation. While both operate in the same industry, differing national contexts drive their prices: TAQA’s performance is heavily influenced by regional production policies and government strategy, while XOM reacts to global oil benchmarks and U.S. supply-demand dynamics. The weak relationship implies that diversification across these companies can mitigate risk, as their returns do not move in tandem.
+For the energy sector, TAQA and XOM show a weak negative correlation. While both operate in the same industry, differing national contexts drive their prices: TAQA’s performance is heavily influenced by regional production policies and government strategy, while XOM reacts to global oil benchmarks and U.S. supply-demand dynamics. The weak relationship implies that diversification across these companies can mitigate risk.
 
 #### Cross-Sector UAE
 
 ![Figure 5c: Cross-Sector Correlation – UAE (FAB vs TAQA)](graphs/CorssSectorUAE.png)
 
-Within the UAE, FAB and TAQA exhibit almost no correlation, reflecting compartmentalized market behavior. The financial sector and energy sector move independently due to differing regulatory drivers and global linkages. This independence suggests that UAE investors benefit from domestic diversification, as downturns in one sector do not necessarily affect the other.
+Within the UAE, FAB and TAQA exhibit almost no correlation, reflecting categorised market behavior. The financial sector and energy sector move independently due to differing regulatory indices and global relations. This independence suggests that UAE investors benefit from domestic diversification, as downturns in one sector do not necessarily affect the other.
 
 #### Cross-Sector US
 
 ![Figure 5d: Cross-Sector Correlation – U.S. (JPM vs XOM)](graphs/CrossSectorUS.png)
 
-In the U.S., JPM and XOM share a modest positive correlation, indicating that both respond somewhat to macroeconomic conditions such as interest rate policy and inflation expectations. Although the relationship is not strong, the data reveal that the U.S. economy’s sectors tend to move more synchronously than those in the UAE, reflecting the interconnected nature of the American market ecosystem.
+In the U.S., JPM and XOM share a modest positive correlation, indicating that both respond somewhat to macroeconomic conditions such as interest rate policy and inflation expectations. Although the relationship is not strong, the data reveal that the U.S. economy’s sectors tend to move more synchronously than those in the UAE.
 
 ---
 
@@ -100,7 +100,7 @@ In the U.S., JPM and XOM share a modest positive correlation, indicating that bo
 
 ![Figure 6: Correlation Heatmap](graphs/CorrelationHeatmap.png)
 
-The heatmap presents all pairwise correlations among the four companies. Intra-country correlations (FAB–TAQA and JPM–XOM) are weak but slightly stronger than cross-country ones. Notably, FAB–JPM shows a marginal positive relationship, while TAQA–XOM displays a mild negative one. These low correlations confirm that UAE and U.S. markets are largely independent, offering substantial diversification potential. The heatmap also emphasizes that even within the same market, energy and banking sectors behave distinctly, underscoring the structural segmentation of financial and commodity-based industries.
+The heatmap shows the correlations between all four companies. Same-country pairs (FAB–TAQA and JPM–XOM) are weakly related, but still slightly stronger than cross-country pairs. FAB–JPM has a small positive relationship, while TAQA–XOM shows a small negative one. These low correlations suggest that the UAE and U.S. markets mostly move independently, which means they can provide good diversification when combined. The heatmap also shows that banking and energy behave differently even within the same country, since the two sectors are driven by different factors.
 
 ---
 
@@ -108,7 +108,7 @@ The heatmap presents all pairwise correlations among the four companies. Intra-c
 
 ![Figure 7: Average Daily Return per Company](graphs/AvgDailyReturnperCOMP.png)
 
-Average daily returns reveal clear performance disparities. TAQA leads with the highest mean return, followed by XOM, then JPM, with FAB slightly negative. Energy stocks’ superior performance reflects elevated oil prices and strong global demand recovery in 2022–2023. Banking’s lower returns align with slower interest income growth and cautious lending. The UAE’s TAQA outperforming U.S. XOM underscores how energy-exporting economies benefited more directly from price shocks. Conversely, FAB’s negative mean return illustrates relative stagnation in the UAE financial sector during this period.
+The average daily returns show a clear difference in performance between the companies. TAQA had the highest returns, followed by XOM, then JPM, while FAB was slightly negative. Energy stocks performed best, helped by high oil prices and strong demand in 2022–2023. Banking stocks grew more slowly during this period, especially in the UAE. TAQA’s strong results highlight how energy-focused economies benefited more from rising oil prices, while FAB’s negative return shows that the UAE banking sector struggled to grow during this time.
 
 ---
 
@@ -116,7 +116,7 @@ Average daily returns reveal clear performance disparities. TAQA leads with the 
 
 ![Figure 8: Daily Return Volatility per Company](graphs/DailyReturnVolatilityperCOMP.png)
 
-Standard deviation of returns quantifies volatility across companies. TAQA and XOM stand out as the most volatile, consistent with their energy exposure and sensitivity to external shocks. FAB and JPM remain comparatively stable, with lower deviations. While all stocks show similar patterns of energy > banking volatility, the UAE’s energy volatility surpasses the U.S.’s due to stronger reliance on oil-driven revenues. This emphasizes that sectoral exposure, more than geography, determines volatility intensity.
+The standard deviation of returns shows how volatile each stock is. TAQA and XOM are the most volatile, which fits typical energy-sector behavior where prices react strongly to global events. FAB and JPM are more stable, with much smaller day-to-day movements. In both markets, energy is more volatile than banking, and TAQA is the most volatile overall, as the UAE market is more sensitive to changes in oil prices. This suggests that sector type, more than location, has the biggest influence on volatility.
 
 ---
 
@@ -124,7 +124,7 @@ Standard deviation of returns quantifies volatility across companies. TAQA and X
 
 ![Figure 9: Market Volatility Comparison](graphs/MarketVolatility.png)
 
-At the market level, ADX (UAE) displays slightly higher average volatility (≈0.021) than the U.S. (≈0.018). This suggests that despite its steady individual stock trends, the UAE market faces greater overall fluctuation, largely attributable to its energy concentration. The U.S. market’s broader diversification cushions systemic volatility. These results show that structural composition—rather than investor behavior alone—dictates the stability of national markets.
+At the market level, ADX (UAE) shows slightly higher volatility (≈0.021) than the U.S. (≈0.018). This means that, overall, the UAE market experienced bigger day-to-day swings. Since the UAE market is strongly tied to energy, it reacts more to changes in oil prices, while the U.S. market is more balanced across different industries. This suggests that market composition, and which sectors dominate it, has a strong impact on overall volatility.
 
 ---
 
@@ -132,36 +132,40 @@ At the market level, ADX (UAE) displays slightly higher average volatility (≈0
 
 ![Figure 10: Up vs Down Days per Market](graphs/NumberrofUpandDownDays.png)
 
-When counting Up and Down trading days, the U.S. market had more Up Days (53%) than Down Days (47%), while the UAE showed more Down Days (57.5%) than Up Days (42.5%). This pattern reveals post-pandemic optimism in the U.S. compared to the UAE’s cautious stance amid oil price adjustments. The figure reflects differences in sentiment: U.S. investors sustained growth-driven optimism, while UAE investors remained defensive and event-sensitive during global market turbulence.
+The U.S. market had more Up Days (53%) than Down Days (47%), while the UAE had more Down Days (57.5%) than Up Days (42.5%). This shows that the U.S. market was generally more positive during this period, while the UAE market was more mixed and often reacted to changes in oil prices. Overall, the chart suggests that U.S. investors showed more confidence, while the UAE market was more cautious and sensitive to global events.
 
 ---
 
 ### 11. Average Return by Sector and Market
 
 ![Figure 11: Average Return by Sector and Market](graphs/AvgReturnbySectandMarket.png)
+
+This chart compares the average daily return of Banking and Energy stocks across the UAE (ADX) and the US. Energy delivered higher returns in both markets, with ADX Energy leading overall, suggesting stronger sector performance in the UAE during this period. Meanwhile, Banking returns were weaker, and ADX Banking was slightly negative, reflecting slower growth and more stable investor gains in that sector.
+
+---
+
+### 12. Volatility by Sector and Market
+
 ![Figure 12: Volatility by Sector and Market](graphs/VolatilitybySectandMarket.png)
 
-Sector-level comparison reinforces earlier findings: energy outperformed banking in both regions but also bore more volatility. TAQA achieved the highest mean return, while FAB posted the lowest. Energy sectors’ greater fluctuations are consistent with global commodity market dependence, whereas banking remains a stabilizing anchor. The contrast demonstrates that the UAE’s economy is more vulnerable to energy cycles, while the U.S. achieves resilience through diversification. The dual charts collectively highlight that return and volatility move together—confirming the fundamental risk-return tradeoff across sectors and regions.
+This chart shows the risk level of each sector by measuring return volatility. Energy is clearly more volatile than Banking in both markets, especially in the UAE, meaning energy prices moved more dramatically day-to-day. In contrast, Banking had lower and more similar volatility across ADX and the US, showing it behaved as a more stable, lower-risk sector in both regions.
 
 ---
 
 ## Conclusion
 
-This comparative study of the UAE and U.S. stock markets during 2022–2023 reveals two contrasting yet complementary financial profiles. The U.S. market is highly dynamic, globally integrated, and responsive to geopolitical and macroeconomic shifts. The UAE market, in contrast, is resilient, policy-driven, and moderately insulated from global turbulence. Energy stocks (TAQA, XOM) generated the highest returns but also the widest fluctuations, reflecting the cost of exposure to oil price volatility. Banking stocks (FAB, JPM) provided stability and acted as buffers against systemic shocks.
-
-The U.S. recorded more upward trading days, fueled by post-pandemic recovery and robust consumer confidence. Meanwhile, the UAE’s higher proportion of down days signaled caution and the influence of global oil market corrections. Sectoral patterns dominated geographical effects: energy consistently drove volatility and profit potential, while banking supplied reliability. Correlation results confirmed that UAE and U.S. markets move independently, reinforcing their diversification benefits.  
-
-For investors, combining UAE and U.S. equities offers an effective risk hedge—balancing U.S. growth potential with UAE steadiness. For policymakers, the findings stress the UAE’s need to diversify beyond energy to enhance resilience, while the U.S. must continue monitoring financial interconnectivity to manage volatility. Ultimately, both markets embody distinct strengths: the U.S. thrives through innovation and risk-taking; the UAE endures through stability and strategic governance. Their coexistence underlines how market diversity sustains global equilibrium.
+This comparison of the UAE and U.S. stock markets in 2022–2023 highlights two different market profiles. The U.S. market is more fast-moving and reacts quickly to global events, while the UAE market is steadier and shaped more by local policies. Energy stocks (TAQA and XOM) delivered the strongest returns but also showed the biggest price swings due to changes in oil prices. Meanwhile, banking stocks (FAB and JPM) were much more stable and helped limit risk during uncertain periods.  
+The U.S. saw more days of rising trades, driven by recovery after the pandemic and strong consumer confidence. In contrast, the UAE had more days of decline, showing caution and the impact of changes in global oil markets. Sector trends mattered more than geography: energy kept causing volatility and profit opportunities, while banking provided stability. The correlation findings showed that the UAE and U.S. markets move separately, confirming their value for diversification.  
+For investors, combining UAE and U.S. equities offers an effective risk, balancing U.S. growth potential with UAE steadiness. Ultimately, both markets showcase distinct strengths: the U.S. thrives through innovation and risk-taking; the UAE endures through stability and strategic governance. Their coexistence underlines how market diversity sustains the global balance.
 
 ---
 
 ## Next Steps
 
-1. **Expand Dataset:** Incorporate sectors such as real estate, telecommunications, and consumer goods to broaden comparative scope.  
-2. **Apply Time-Series Models:** Use rolling Sharpe ratios and ARIMA forecasting to capture evolving risk and performance dynamics.  
-3. **Portfolio Simulation:** Evaluate diversification effects by constructing hypothetical mixed UAE–U.S. portfolios.  
-4. **Interactive Dashboards:** Develop Plotly/Dash applications linking macroeconomic events to stock movements.  
-5. **Policy Evaluation:** Explore how fiscal reforms or monetary tightening influence investor sentiment across both economies.
+**Add More Industries:** Expand the dataset by including additional sectors such as real estate, telecommunications, and consumer goods. This would give a fuller picture of how different parts of each economy move and whether the same patterns hold outside banking and energy.  
+**Include More Markets:** Add new cities such as London, Tokyo, or Hong Kong to compare results across more financial centers. This could also be turned into a flexible framework where users can pick any two markets and run the same comparison to explore similarities and differences.  
+**Add Volume and Liquidity Analysis:** Incorporating trading volume would help show how investor activity connects to market swings and volatility.  
+**Compare Market Reactions Over Time:** Breaking the timeline into smaller periods (for example, first half vs. second half of 2023) could reveal how markets react differently to specific events or global shocks.
 
 ---
 
@@ -172,3 +176,4 @@ For investors, combining UAE and U.S. equities offers an effective risk hedge—
 - IMF *World Economic Outlook* (2023): Oil price and inflation trends  
 - Bloomberg & Federal Reserve (2023): U.S. banking volatility  
 
+---
